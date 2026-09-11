@@ -25,3 +25,10 @@ with open("input/raw-text.txt", "r") as file:
      u_pattern=r"https?://[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:/[^\s]*)?"
     url=re.findall(u_pattern, text)
     print("The URLs are:", url)
+    results={
+        "Emails": emails,
+        "ALU_Emails": alu_emails,
+        "Credit_Cards_Numbers": m_card,
+        "Phone_Numbers": tel,
+        "URLs": url
+    }
