@@ -59,4 +59,4 @@ cat output/sample-output.json
 
 ## Output
 
-The extracted data is stored in `output/sample-output.json`.
+The extracted data stored in `output/sample-output.json` is displayed as a dictionary.
