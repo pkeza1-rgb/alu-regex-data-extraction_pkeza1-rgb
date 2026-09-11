@@ -18,6 +18,7 @@ The program specifically recognizes three ALU domains:
 - @alueducation.com
 - @alumni.alueducation.com
 - @si.alueducation.com
+  
 Emails using different domains are not considered ALU email addresses.
 
 ## Security Considerations
