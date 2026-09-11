@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import re
+import json
 with open("input/raw-text.txt", "r") as file:
     text= file.read()
     pattern=r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
