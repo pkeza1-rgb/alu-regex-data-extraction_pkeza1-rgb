@@ -18,6 +18,7 @@ The program specifically recognizes three ALU domains:
 - @alueducation.com
 - @alumni.alueducation.com
 - @si.alueducation.com
+  
 Emails using different domains are not considered ALU email addresses.
 
 ## Security Considerations
@@ -58,4 +59,4 @@ cat output/sample-output.json
 
 ## Output
 
-The extracted data is stored in `output/sample-output.json`. Credit card numbers are masked in the output to protect sensitive information.
+The extracted data stored in `output/sample-output.json` is displayed as a dictionary.
