@@ -22,3 +22,6 @@ with open("input/raw-text.txt", "r") as file:
     t_pattern=r"(?:\+250[\s-]?|0)7\d{2}[\s-]?\d{3}[\s-]?\d{3}"
     tel=re.findall(t_pattern, text)
     print("The phone numbers are:", tel)
+     u_pattern=r"https?://[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:/[^\s]*)?"
+    url=re.findall(u_pattern, text)
+    print("The URLs are:", url)
