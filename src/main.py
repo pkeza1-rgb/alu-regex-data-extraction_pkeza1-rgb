@@ -19,3 +19,6 @@ with open("input/raw-text.txt", "r") as file:
         mask=good_card[:4] + " **** **** " + good_card[-4:]
         m_card.append(mask)
     print("The credit card numbers are:", m_card)
+    t_pattern=r"(?:\+250[\s-]?|0)7\d{2}[\s-]?\d{3}[\s-]?\d{3}"
+    tel=re.findall(t_pattern, text)
+    print("The phone numbers are:", tel)
