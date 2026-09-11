@@ -1,5 +1,5 @@
 {
-    "emails": [
+    "Emails": [
         "alice.mukamana@example.com",
         "alice.mukamana@alueducation.com",
         "jean.n@example.org",
@@ -7,21 +7,21 @@
         "grace.uwase@si.alueducation.com",
         "student@fakealueducation.com"
     ],
-    "alu_emails": [
+    "ALU_Emails": [
         "alice.mukamana@alueducation.com",
         "jean.n@alumni.alueducation.com",
         "grace.uwase@si.alueducation.com"
     ],
-    "credit_cards": [
+    "Credit_Cards_Numbers": [
         "4111 **** **** 1111",
         "5500 **** **** 0004"
     ],
-    "phone_numbers": [
+    "Phone_Numbers": [
         "+250 788 123 456",
         "+250-783-456-789",
         "0788123456"
     ],
-    "urls": [
+    "URLs": [
         "https://portal.example.com/customers/10482",
         "https://www.example.org/account/settings",
         "https://support.example.com/tickets/10484"
