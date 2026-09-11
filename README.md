@@ -58,4 +58,4 @@ cat output/sample-output.json
 
 ## Output
 
-The extracted data is stored in `output/sample-output.json`. Credit card numbers are masked in the output to protect sensitive information.
+The extracted data is stored in `output/sample-output.json`.
